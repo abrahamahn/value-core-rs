@@ -1,10 +1,12 @@
-# value-core
+# value-core-rs
 
-The Rust implementation of [`value-core`](https://github.com/abrahamahn/value-core-rs#readme):
-domain-neutral exact amounts, balanced postings, atomic detached balance application, holds,
-reversals, idempotency, statements, conversion plans, and reconciliation. It performs no
-infrastructure I/O and uses `serde`/`serde_json` for structured evidence plus the audited `sha2`
-implementation for domain-separated hashes.
+This repository contains only the `value-core` Rust crate and language-neutral JSON conformance
+fixtures. It has no npm, Node.js, or TypeScript build dependency.
+
+The crate provides domain-neutral exact amounts, balanced postings, atomic detached balance
+application, holds, reversals, idempotency, statements, conversion plans, and reconciliation. It
+performs no infrastructure I/O and uses `serde`/`serde_json` for structured evidence plus the
+audited `sha2` implementation for domain-separated hashes.
 The public rate and fact modules provide half-even rational rates, deterministic freshness,
 gap-free ordering, and pinned-digest validation. The public `time` module provides strict RFC 3339
 parsing and checked canonical UTC formatting without introducing a clock dependency. Use
