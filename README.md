@@ -1,6 +1,6 @@
 # value-core
 
-The Rust implementation of [`value-core`](https://github.com/abrahamahn/value-core#readme):
+The Rust implementation of [`value-core`](https://github.com/abrahamahn/value-core-rs#readme):
 domain-neutral exact amounts, balanced postings, atomic detached balance application, holds,
 reversals, idempotency, statements, conversion plans, and reconciliation. It performs no
 infrastructure I/O and uses `serde`/`serde_json` for structured evidence plus the audited `sha2`
